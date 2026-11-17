@@ -1,5 +1,5 @@
 ---
-title: "Science - Biocomplexity"
+title: "Science: Biocomplexity"
 date: 2009-04-19T11:47:00Z
 tags:
   - science/biology
