@@ -3,7 +3,7 @@
   "name": "Blog clipping",
   "behavior": "create",
   "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{title|safe_name}}",
-  "path": "clippings",
+  "path": "posts",
   "noteContentFormat": "[{{title}}]({{url}})\n\n{{selection|blockquote}}\n\n",
   "properties": [
     { "name": "title", "value": "{{title}}", "type": "text" },

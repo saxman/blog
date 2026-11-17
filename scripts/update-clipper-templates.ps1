@@ -26,15 +26,21 @@ Also add at most one series tag if the page is centered on a single word, phrase
 Rules: use the most specific tag that fits (language/japanese, not language). Do not add a parent tag alongside its child. Only if no listed tag fits the main subject, invent one new lowercase tag in the same parent/child style. Reply with only the tags separated by commas, with no # and no other text.
 "@ -replace "`r?`n", ' '
 
-$titlePrompt = 'the subject of the page as a short title in title case, without the site name'
+# Post titles are "Topic: Subject", where Topic is a top-level tag (Language, Philosophy, ...).
+$topLevel = $topics | ForEach-Object { ($_ -split '/')[0] } | Sort-Object -Unique | ForEach-Object {
+    (Get-Culture).TextInfo.ToTitleCase(($_ -replace '-', ' '))
+}
+$titlePrompt = "a title of the form 'Topic: Subject'. Topic is one of: $($topLevel -join ', '), and should match the top level of the most relevant tag. Subject is the page subject in its usual capitalization, without the site name"
 
 function New-Template([string] $name, [string] $body) {
     [ordered]@{
         schemaVersion     = '0.1.0'
         name              = $name
         behavior          = 'create'
-        noteNameFormat    = '{{date|date:"YYYY-MM-DD"}}-{{title|safe_name}}'
-        path              = 'clippings'
+        # Same prompt as the title property, so the filename matches the title (e.g. 2026-11-17-language-petrichor).
+        noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$titlePrompt`"|kebab|safe_name}}"
+        # New clips go straight to posts/ as drafts; remove draft: true to publish.
+        path              = 'posts'
         noteContentFormat = $body
         properties        = @(
             [ordered]@{ name = 'title';  value = "{{`"$titlePrompt`"}}"; type = 'text' }
