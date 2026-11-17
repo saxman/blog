@@ -35,7 +35,10 @@ Before inventing a new tag, check Obsidian's Tags pane and reuse an existing one
 
 ## Writing workflow
 
-1. **Clip:** select a passage on a web page and use the "Blog clipping" Web Clipper template. A note lands in `clippings/` with `draft: true`.
+1. **Clip:** use one of the Web Clipper templates in `obsidian-web-clipper/`. A note lands in `clippings/` with `draft: true`.
+   - "Blog clipping (excerpt)" and "Blog clipping (summary)" use Web Clipper's Interpreter (an LLM) to write the title and tags and to quote or summarize the page. Tags are chosen from the tags already used in `posts/`.
+   - "Blog clipping" doesn't use the LLM: select a passage first and it's quoted as-is.
+   - After adding new tags to posts, run `pwsh scripts/update-clipper-templates.ps1` and re-import the two Interpreter templates.
 2. **Edit:** add your own commentary and tags.
 3. **Publish:** set `draft: false` (or delete the line), optionally move the note to `posts/`, then commit and push. GitHub Actions builds and deploys.
 

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Blog clipping (excerpt)",
+  "behavior": "create",
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{title|safe_name}}",
+  "path": "clippings",
+  "noteContentFormat": "[{{title}}]({{url}})\n\n{{\"the one passage from the main article that best defines or explains its subject, copied verbatim and not paraphrased, at most 3 paragraphs\"|blockquote}}\n\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{\"the subject of the page as a short title in title case, without the site name\"}}",
+      "type": "text"
+    },
+    {
+      "name": "date",
+      "value": "{{date|date:\"YYYY-MM-DDTHH:mm:ssZ\"}}",
+      "type": "datetime"
+    },
+    {
+      "name": "tags",
+      "value": "{{\"Choose 2 to 5 tags for this page from this list of topic tags: arts, arts/architecture, arts/calligraphy, arts/ceramics, arts/film, arts/literature, arts/music, arts/performance, arts/photography, arts/poetry, culture, culture/china, culture/france, culture/greece, culture/india, culture/japan, culture/korea, economics, education, environment, folklore, food, food/nutrition, food/recipes, food/tea, food/wine, geography, history, humor, language/chinese, language/english, language/french, language/greek, language/japanese, language/latin, language/spanish, linguistics, martial-arts, mathematics, philosophy, philosophy/aesthetics, philosophy/buddhism, philosophy/ethics, philosophy/logic, religion, science, science/agriculture, science/anthropology, science/astronomy, science/biology, science/complex-systems, science/computer-science, science/medicine, science/physics, science/psychology, technology, technology/web, travel. Also add at most one series tag if the page is centered on a single word, phrase, quote, philosopher, scientific idea, or book list: series/philosophy-of-the-day, series/photos, series/phrase-of-the-day, series/quotes, series/reading-list, series/science-of-the-day, series/word-of-the-day. Rules: use the most specific tag that fits (language/japanese, not language). Do not add a parent tag alongside its child. Only if no listed tag fits the main subject, invent one new lowercase tag in the same parent/child style. Reply with only the tags separated by commas, with no # and no other text.\"}}",
+      "type": "multitext"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "text"
+    },
+    {
+      "name": "draft",
+      "value": "true",
+      "type": "checkbox"
+    }
+  ],
+  "triggers": [],
+  "context": "{{content|slice:0,30000}}"
+}
