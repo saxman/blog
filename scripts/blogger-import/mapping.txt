@@ -1,0 +1,196 @@
+# Blogger export -> Quartz import mapping
+# Format: source filename | new title (- keeps original) | tags (comma separated)
+# Destination "unpublished" in the tags column sends the post to ../blog-unpublished instead of content/posts.
+2004-09-21-Japanese_and_Korean_Teas.md | - | food/tea, culture/japan, culture/korea, language/japanese
+2004-09-22-BOurgeois_BOhemians__BoBo_s.md | - | culture
+2004-09-22-La_Vie_En_Rose.md | - | arts/music, language/french
+2004-09-30-Pinyin.md | - | language/chinese
+2004-10-04-Osaka_Dialect.md | - | language/japanese, culture/japan
+2004-10-11-Measurements.md | - | unpublished
+2004-10-11-Pictorial_Web_Sites.md | - | language/chinese, humor
+2004-10-13-Web_Widgets.md | - | technology/web
+2004-10-29-The_Seven_Deadly_Sins___The_Seven_Heavenly_Virtues.md | - | philosophy/ethics, religion
+2004-10-29-The_Three_Poisons__The_Five_Passions__and_The_Five.md | - | philosophy/buddhism
+2004-11-03-Ryugyong_Hotel__Pyongyang__North_Korea.md | - | arts/architecture, arts/literature, culture/korea
+2004-11-09-Miyamoto_Musashi_s_Principles_of_the_Way_of_His_Ic.md | - | philosophy, martial-arts, culture/japan
+2004-12-02-Oh_God____I_pray_that_I_m_not_one_of_these___.md | - | culture/japan, humor
+2004-12-16-Dates_to_Remeber.md | - | unpublished
+2005-01-11-Japanese_Literature.md | - | arts/literature, culture/japan
+2005-01-19-Japanese_Cultural_Words.md | - | language/japanese, culture/japan
+2005-02-01-Useful_Latin_Terms_and_Abbreviations.md | - | language/latin
+2005-02-07-_Unique__Works_of_Ludwig_van_Beethoven.md | - | arts/music
+2005-03-04-Latng_words_terms_that_you_don_t_see_every_day___.md | - | language/latin
+2005-07-29-Words_of_the_Day.md | Words of the Day: Sororate and Levirate Marriage | language/english, science/anthropology, series/word-of-the-day
+2005-08-01-Summer_Reading_List.md | - | arts/literature, series/reading-list
+2005-08-01-Words_of_the_Day.md | Words of the Day: Cogent, Internecine, Damnatio Memoriae | language/english, language/latin, series/word-of-the-day
+2005-08-02-Internment_Occupation_Books.md | - | history, arts/literature, series/reading-list
+2005-08-02-Latin_Logic.md | - | language/latin, philosophy/logic
+2005-08-03-Japanese_History.md | - | history, culture/japan
+2005-08-03-Kendo_Philosophy.md | - | martial-arts, philosophy, language/japanese, culture/japan
+2005-08-04-Daily_Philosophy.md | Daily Philosophy: Ludwig Wittgenstein | philosophy, series/philosophy-of-the-day
+2005-08-04-On_China.md | - | culture/china, travel
+2005-08-04-Where_to_Begin____.md | - | history
+2005-08-18-Words_of_the_Day.md | Word of the Day: Thaumaturge | language/english, series/word-of-the-day
+2005-08-22-Factoids.md | - | culture
+2005-08-23-Fall_Reading_List.md | - | arts/literature, philosophy, series/reading-list
+2005-08-24-Japanese_Words_of_the_Day.md | Japanese Words of the Day: Beisei Nihongo, Shibui, Tsute | language/japanese, series/word-of-the-day
+2005-08-29-Words_of_the_Day.md | Word of the Day: Vivarium | language/english, series/word-of-the-day
+2005-08-30-Possibly_a_Good_Book.md | - | history, series/reading-list
+2005-09-01-Word_of_the_Day.md | Word of the Day: Synesthesia | language/english, science/psychology, series/word-of-the-day
+2005-09-22-Philosophy__Science__of_the_Day.md | Philosophy (Science) of the Day: Hypernym and Ontology | philosophy, linguistics, science/computer-science, series/philosophy-of-the-day
+2005-09-29-Things_Aya_and_I_Did_Our_First_Year_Together.md | - | unpublished
+2005-10-28-Best_Italian_Food_in_Detroit_.md | - | food, travel
+2005-11-09-Japanese_Phrase_of_the_Day.md | Japanese Phrase of the Day: Hara Hachi Bu | language/japanese, food, series/phrase-of-the-day
+2005-11-10-Word_of_the_Day.md | Word of the Day: Hubris | language/english, series/word-of-the-day
+2005-11-22-Japanese_Word_of_the_Day.md | Japanese Word of the Day: Oekaki | language/japanese, arts, series/word-of-the-day
+2005-11-29-Word_of_the_Day.md | Word of the Day: Elided | unpublished
+2005-12-07-Japanese_Words_of_the_Day.md | Japanese Words of the Day: Mizuhiki, Washi, Noshi | language/japanese, culture/japan, series/word-of-the-day
+2006-01-16-Latin_Word_of_the_Day.md | Latin Word of the Day: Ad Hominem | language/latin, philosophy/logic, series/word-of-the-day
+2006-01-18-Interesting_Quote.md | Interesting Quote: Horace Walpole | philosophy, series/quotes
+2006-01-25-Psychology_OTD.md | Psychology of the Day: Sleeper Effect and Groupthink | science/psychology
+2006-02-01-WotD.md | WotD: Exogenous | language/english, series/word-of-the-day
+2006-03-02-Ph_Fr_WotD.md | Ph/Fr WotD: Lapsus | language/french, language/latin, series/word-of-the-day
+2006-04-25-Music_WotD.md | Music WotD: Glissando | arts/music, series/word-of-the-day
+2006-06-16-Japanese_WotD.md | Japanese WotD: Yamanba | language/japanese, culture/japan, folklore, series/word-of-the-day
+2006-06-22-No_Tats_.md | - | humor
+2006-06-29-Grammar_of_the_Day.md | Grammar of the Day: Split Infinitive | language/english, linguistics
+2006-09-06-Hunan_Tofu.md | - | food/recipes
+2006-09-13-Environmentalism__Masanobu_Fukuoka.md | - | environment, science/agriculture, culture/japan
+2006-09-13-Philosophy_of_the_Day.md | Philosophy of the Day: Shugendo | religion, philosophy/buddhism, culture/japan, series/philosophy-of-the-day
+2006-09-13-Phrase_of_the_Day.md | Phrase of the Day: SPQR | language/latin, history, series/phrase-of-the-day
+2006-09-13-Word_of_the_Day.md | Word of the Day: Erudite | language/english, series/word-of-the-day
+2006-09-24-Japanese_Phrase_of_the_Day.md | Japanese Phrase of the Day: Anata to Oae Dekite Ureshii Desu | language/japanese, series/phrase-of-the-day
+2006-09-30-Poetry_of_the_Day.md | Poetry of the Day: Ella Wheeler Wilcox | arts/poetry
+2006-09-30-Poi__juggling_.md | - | arts/performance
+2006-10-08-Japanese_Word_of_the_Day.md | Japanese Word of the Day: Mottainai | language/japanese, culture/japan, environment, series/word-of-the-day
+2006-10-30-Japanese_WotD.md | Japanese WotD: Burakumin | language/japanese, culture/japan, history, series/word-of-the-day
+2006-11-02-Dalit_-_The_Untouchables.md | - | culture/india
+2006-11-06-Naughty_Japan_-_Unit_731.md | - | history, culture/japan
+2006-11-08-WotD.md | WotD: Steampunk | language/english, arts, series/word-of-the-day
+2006-11-11-100_Best_Modern_Novels.md | - | arts/literature, series/reading-list
+2006-11-14-Japanese_WotD.md | Japanese WotD: Butoh | language/japanese, arts/performance, culture/japan, series/word-of-the-day
+2006-11-14-Quote_of_the_Day.md | Quote of the Day: Mahatma Gandhi | culture/india, series/quotes
+2006-11-14-WotD_-_Pax_Britannica.md | - | history, language/latin, series/word-of-the-day
+2006-12-21-WotD_-_Ephebophilia.md | - | language/english, science/psychology, series/word-of-the-day
+2007-01-18-Japanese_WotD_-_Yamato_Damashi.md | - | language/japanese, culture/japan, series/word-of-the-day
+2007-02-08-To_Read.md | - | philosophy, series/reading-list
+2007-03-08-Japanese_Phrase_of_the_Day_-_Yamato_nadeshiko.md | - | language/japanese, culture/japan, series/phrase-of-the-day
+2007-03-30-Science_of_the_Day_-_Endosymbiotic_theory.md | - | science/biology, series/science-of-the-day
+2007-05-16-Japanese_WotD_-_O-kyaku.md | - | language/japanese, culture/japan, series/word-of-the-day
+2007-05-16-PotD_-_Jacques_Derrida.md | - | philosophy, series/philosophy-of-the-day
+2007-05-23-Matsuo_Bash_.md | - | arts/poetry, culture/japan
+2007-05-31-Japanese_WotD_-_Y_kai.md | - | language/japanese, culture/japan, folklore, series/word-of-the-day
+2007-06-09-Science_of_the_Day_-_Orthomolecular_medicine.md | - | science/medicine, series/science-of-the-day
+2007-06-10-Names_of_Japan.md | - | culture/japan, language/japanese, history
+2007-11-21-WotD.md | WotD: Ouroboros | language/english, religion, series/word-of-the-day
+2008-07-21-French_WotD_-_Mistral__wind_.md | - | language/french, geography, series/word-of-the-day
+2008-07-21-Japanese_WotD_-_Hikikomori.md | - | language/japanese, culture/japan, science/psychology, series/word-of-the-day
+2008-07-21-Japanese_WotD_-_Okiagari-koboshi.md | - | language/japanese, culture/japan, series/word-of-the-day
+2008-07-21-Latin_WotD_-_Ad_hoc.md | - | language/latin, series/word-of-the-day
+2008-07-21-Latin_WotD_-_Locum.md | - | language/latin, series/word-of-the-day
+2008-07-21-WotD_-_Syncretism.md | - | language/english, religion, philosophy, series/word-of-the-day
+2008-07-21-WotD_-_Transhumanism.md | - | language/english, philosophy, technology, series/word-of-the-day
+2008-07-23-Latin_PotD_-_Alea_iacta_est.md | - | language/latin, history, series/phrase-of-the-day
+2009-04-19-English_Language_-_Astringent.md | - | language/english
+2009-04-19-Japan_Photos_-_Geiko__Geisha__and_Maiko.md | - | arts/photography, culture/japan, series/photos
+2009-04-19-Japan_Photos_-_Geisha__Geiko__and_Maiko.md | - | arts/photography, culture/japan, series/photos
+2009-04-19-Japan_Photos_-_Ochaya_and_Yakata_of_Kyoto.md | - | arts/photography, culture/japan, series/photos
+2009-04-19-Japan__Asia__Photos.md | - | arts/photography, culture/japan, series/photos
+2009-04-19-Japanese_Cuisine_-_Arare__food_.md | - | food, culture/japan
+2009-04-19-Japanese_Cuisine_-_Kaiseki.md | - | food, culture/japan
+2009-04-19-Japanese_Culture_-_Ateji.md | - | language/japanese, culture/japan
+2009-04-19-Japanese_Culture_-_Ens_.md | - | philosophy/buddhism, arts/calligraphy, culture/japan
+2009-04-19-Japanese_Culture_-_Hitsuzendo.md | - | philosophy/buddhism, arts/calligraphy, culture/japan
+2009-04-19-Japanese_Culture_-_Japanese_aesthetics.md | - | philosophy/aesthetics, arts, culture/japan
+2009-04-19-Japanese_Culture_-_Shodo__Japanese_calligraphy_.md | - | arts/calligraphy, language/japanese, culture/japan
+2009-04-19-Japanese_Culture__-_Zazen.md | Japanese Culture - Zazen | philosophy/buddhism, culture/japan
+2009-04-19-Japanese_History_-_53_Stations_of_the_T_kaid_.md | - | history, arts, culture/japan
+2009-04-19-Japanese_History_-_M_ri_Motonari.md | - | history, culture/japan
+2009-04-19-Japanese_History_-_Oiran__Tayu__and_Kamuro.md | - | history, culture/japan
+2009-04-19-Japanise_Cuisine_-_Kaki__Persimmon_.md | Japanese Cuisine - Kaki (Persimmon) | food, culture/japan
+2009-04-19-Science_-_Biocomplexity.md | - | science/biology, science/complex-systems
+2009-04-20-Eromenos.md | - | language/greek, culture/greece, history
+2009-04-20-Hsin_Hsin_Ming.md | - | philosophy/buddhism, arts/poetry, culture/china
+2009-04-22-Defensive_weapons_of_the_Japanese_samurai.md | - | history, martial-arts, culture/japan
+2009-04-26-Bokeh.md | - | arts/photography, language/japanese, language/english
+2009-04-27-Yunomi.md | - | arts/ceramics, language/japanese, culture/japan
+2009-05-03-Honne_and_tatemae.md | - | language/japanese, culture/japan
+2009-05-05-Bernard_d_Espagnat.md | - | philosophy, science/physics
+2009-05-05-Hardy_s_paradox.md | - | philosophy, science/physics
+2009-05-05-Nonlocality.md | - | science/physics
+2009-05-05-Onomatopoeia.md | - | language/english, linguistics
+2009-05-05-Synesthesia.md | - | language/english, linguistics, science/psychology
+2009-05-05-defeasible.md | - | language/english, philosophy/logic
+2009-05-06-_Geometric__Distortion__optics_.md | - | arts/photography
+2009-05-17-Juzo_Itami.md | - | arts/film, culture/japan
+2009-05-26-High_dynamic_range_imaging.md | - | arts/photography
+2009-05-27-Anxiolytic.md | - | science/medicine, food/nutrition
+2009-05-29-Extended_Backus_Naur_Form.md | - | science/computer-science
+2009-05-29-Star_schema.md | - | science/computer-science
+2009-06-01-De_Morgan_s_laws.md | - | science/computer-science, philosophy/logic, mathematics
+2009-06-10-Cellular_Potts_model.md | - | science/complex-systems, science/biology
+2009-06-10-St__Petersburg_paradox.md | - | mathematics, economics
+2009-06-11-Levenshtein_distance.md | - | science/computer-science, linguistics
+2009-06-11-Shimenawa.md | - | religion, culture/japan, language/japanese
+2009-06-12-Jerboa_-_Wikipedia__the_free_encyclopedia.md | Jerboa | science/biology
+2009-06-28-Syntactic_sugar.md | - | science/computer-science
+2009-07-22-Four_Temperaments.md | - | science/psychology, history
+2009-07-23-Propolis.md | - | science/biology, science/agriculture
+2009-08-06-n_e.md | - | language/english, language/french
+2010-01-25-French_PotD_-_Mise_en_abyme.md | - | language/french, arts, series/phrase-of-the-day
+2010-01-26-Book_-_The_education_of_Karl_Witte.md | - | education, series/reading-list
+2010-01-31-Golden_ratio.md | - | mathematics
+2010-02-05-Ogive.md | - | language/french, arts/architecture
+2010-02-06-Uncanny_valley.md | - | technology, science/psychology
+2010-02-08-Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Bu.md | - | linguistics, language/english, humor
+2010-04-05-Semiotics.md | - | philosophy, linguistics
+2010-06-22-Besame_Mucho.md | - | arts/music, language/spanish
+2012-09-10-Dunbar_s_number.md | - | science/psychology, science/anthropology
+2013-08-30-Mapping__Cadastre.md | - | geography
+2013-08-30-PotD__Chinese_room.md | - | philosophy, science/computer-science, series/philosophy-of-the-day
+2013-08-30-WotD__Recusancy.md | - | history, religion, language/english, series/word-of-the-day
+2013-09-05-Drake_equation.md | - | science/astronomy, mathematics
+2013-09-22-Code_of_Hammurabi.md | - | history
+2013-10-11-Things_to_do__Way_of_St__James.md | - | travel, religion
+2014-01-09-History__Yoshiko_Kawashima.md | - | history, culture/china, culture/japan
+2014-01-09-Philosophy__Enlightened_self-interest.md | - | philosophy/ethics
+2014-01-09-Places__Meteora.md | - | travel, religion, culture/greece
+2014-01-10-Science__Fata_Morgana__mirage_.md | - | science/physics
+2014-01-11-Science__Holocene_extinction.md | - | science/biology, environment
+2014-02-01-Flehmen_response.md | - | science/biology
+2014-02-12-WotD__Semelparity_and_iteroparity.md | - | science/biology, language/english, series/word-of-the-day
+2014-03-08-PotD__Arete.md | - | philosophy/ethics, language/greek, series/philosophy-of-the-day
+2014-03-08-Science__Jenks_natural_breaks_optimization.md | - | mathematics, geography
+2014-03-13-WotD__Cryptid.md | - | language/english, science/biology, folklore, series/word-of-the-day
+2014-04-10-Science__Avoirdupois.md | - | science, history
+2014-04-15-Science__K_rm_n_vortex_street.md | - | science/physics
+2014-04-17-Augmented_Reality_Sandbox.md | - | technology, science/computer-science, geography
+2014-04-23-Literature___Philosophy__Debate_between_bird_and_f.md | - | arts/literature, philosophy, history
+2014-07-03-Anthropodermic_bibliopegy.md | - | history, arts/literature
+2014-08-07-Wine__Amarone.md | - | food/wine
+2014-08-16-Japanese_WotD__Tokonoma.md | - | language/japanese, culture/japan, arts/architecture, series/word-of-the-day
+2014-11-18-Aarne_Thompson_classification_system.md | - | folklore, arts/literature
+2014-11-20-Japanese__Miyabi.md | - | philosophy/aesthetics, language/japanese, culture/japan
+2014-12-16-English_WotD__halcyon.md | - | language/english, series/word-of-the-day
+2014-12-16-History__Sator_Square.md | - | history, language/latin
+2014-12-17-Psychology_WotD__Anhedonia.md | - | science/psychology, series/word-of-the-day
+2014-12-17-Science__Mammalian_diving_reflex.md | - | science/biology
+2015-01-10-California_Certified_Air_Cleaning_Devices.md | - | technology, environment
+2015-01-10-History__Towers_of_Bologna.md | - | history, arts/architecture, travel
+2015-01-13-WotD__Arete.md | - | philosophy/ethics, language/greek, series/word-of-the-day
+2015-01-29-WotD__Ambigram.md | - | arts, language/english, series/word-of-the-day
+2015-03-27-Philosophy__Panopticism.md | - | philosophy
+2015-04-06-India__Bhang.md | - | culture/india, food
+2015-04-17-Kiss_of_Judas.md | - | religion, language/english
+2015-05-08-Science__Plant_Foods_Have_a_Complete_Amino_Acid_Co.md | - | food/nutrition, science
+2015-05-26-WotD__Apotheosis.md | - | religion, arts, language/greek, series/word-of-the-day
+2015-06-28-Greek__Molon_labe.md | - | language/greek, history, series/phrase-of-the-day
+2015-08-20-Science__Harry_Harlow.md | - | science/psychology
+2017-09-29-History__Cult_of_Reason.md | - | history, religion, culture/france
+2017-10-08-History__Rachel_Plummer.md | - | history
+2018-06-19-Quote_of_the_Day__Mozart.md | - | arts/music, series/quotes
+2021-07-11-WotD__Whataboutism.md | - | language/english, philosophy/logic, series/word-of-the-day
+2025-07-09-Untitled.md | Kintsugi | unpublished
+2026-02-16-PotD__Narcissism_of_small_differences.md | - | science/psychology, philosophy, series/philosophy-of-the-day
+2026-04-19-WotD__Petrichor.md | - | language/english, science, series/word-of-the-day
+Minuscule Musings/2013-01-06-Photo_Archiving.md | - | unpublished

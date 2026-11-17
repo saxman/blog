@@ -4,7 +4,6 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
 .quartz-cache
 private/
 .replit
@@ -12,3 +11,7 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+# Obsidian: commit shared vault settings, not per-machine state
+content/.obsidian/workspace*.json
+content/.obsidian/cache
+content/.trash/

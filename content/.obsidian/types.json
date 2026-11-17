@@ -1,0 +1,11 @@
+{
+  "types": {
+    "tags": "tags",
+    "aliases": "aliases",
+    "date": "datetime",
+    "draft": "checkbox",
+    "source": "text",
+    "author": "multitext",
+    "imported_from": "text"
+  }
+}

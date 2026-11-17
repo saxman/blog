@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Blog clipping",
+  "behavior": "create",
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{title|safe_name}}",
+  "path": "clippings",
+  "noteContentFormat": "[{{title}}]({{url}})\n\n{{selection|blockquote}}\n\n",
+  "properties": [
+    { "name": "title", "value": "{{title}}", "type": "text" },
+    { "name": "date", "value": "{{date|date:\"YYYY-MM-DDTHH:mm:ssZ\"}}", "type": "datetime" },
+    { "name": "tags", "value": "", "type": "multitext" },
+    { "name": "source", "value": "{{url}}", "type": "text" },
+    { "name": "author", "value": "{{author}}", "type": "text" },
+    { "name": "draft", "value": "true", "type": "checkbox" }
+  ],
+  "triggers": []
+}

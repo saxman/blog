@@ -1,0 +1,10 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "drafts",
+  "attachmentFolderPath": "attachments",
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "templates/"
+  ]
+}
