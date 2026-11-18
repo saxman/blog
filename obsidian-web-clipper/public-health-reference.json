@@ -3,7 +3,7 @@
   "name": "Public health reference",
   "behavior": "create",
   "vault": "public-health",
-  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"|kebab|lower|replace:\"/[()\\[\\]{},.!?:;&]+/g\":\"-\"|replace:\"/-+/g\":\"-\"|replace:\"/^-/\":\"\"|replace:\"/-$/\":\"\"}}",
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"|kebab|lower|replace:\"/[()\\[\\]{},.!?:;&]+/g\":\"-\"|replace:\"/-+/g\":\"-\"|replace:\"/^-/\":\"\"|replace:\"/-$/\":\"\"|safe_name}}",
   "path": "references",
   "noteContentFormat": "[{{title}}]({{url}})\n\n{{\"a description of what this is and why it matters, in 2 to 3 sentences, in a neutral tone, in English\"}}\n\n",
   "properties": [

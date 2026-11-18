@@ -27,7 +27,7 @@ $link = '[{{title}}]({{url}})'
 # Filename slug filters: kebab-case and lowercase, turn leftover punctuation into hyphens, then collapse and
 # trim hyphens. Letters with accents are kept (Web Clipper can't transliterate them).
 # (No "|" or double quotes inside the regexes: Web Clipper would misread them.)
-$slugFilters = '|kebab|lower|replace:"/[()\[\]{},.!?:;&]+/g":"-"|replace:"/-+/g":"-"|replace:"/^-/":""|replace:"/-$/":""'
+$slugFilters = '|kebab|lower|replace:"/[()\[\]{},.!?:;&]+/g":"-"|replace:"/-+/g":"-"|replace:"/^-/":""|replace:"/-$/":""|safe_name'
 
 # --- Meanderings (the blog): "Topic: Subject" posts in meanderings/posts ---
 $tags = Get-Tags (Join-Path $content 'meanderings/posts')
