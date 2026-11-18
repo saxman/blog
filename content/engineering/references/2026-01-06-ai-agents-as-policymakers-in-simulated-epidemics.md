@@ -7,7 +7,6 @@ tags:
 type: paper
 source: https://arxiv.org/pdf/2601.04245
 imported_from: "obsidian-vault/Resources/AI/Articles.md"
-draft: true
 ---
 
 [AI Agents as Policymakers in Simulated Epidemics](https://arxiv.org/pdf/2601.04245)

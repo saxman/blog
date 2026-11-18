@@ -7,7 +7,6 @@ type: paper
 source: https://arxiv.org/html/2610.37364v1
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Models.md"
-draft: true
 ---
 
 [EmbeddingGemma 2: Unified and Efficient Multimodal Representations](https://arxiv.org/html/2610.37364v1)

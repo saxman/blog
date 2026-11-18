@@ -7,7 +7,6 @@ type: program
 source: https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [Gemini for Science: AI experiments and tools for a new era of discovery](https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/)

@@ -7,7 +7,6 @@ type: program
 source: https://openai.com/index/advancing-the-next-era-of-national-science/
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [Advancing the next era of national science](https://openai.com/index/advancing-the-next-era-of-national-science/)

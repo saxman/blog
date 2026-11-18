@@ -7,7 +7,6 @@ type: link
 source: https://www.anthropic.com/research/effective-context-engineering-for-ai-agents
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Engineering.md"
-draft: true
 ---
 
 [Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents)

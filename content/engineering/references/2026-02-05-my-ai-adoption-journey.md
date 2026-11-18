@@ -6,7 +6,6 @@ tags:
 type: link
 source: https://mitchellh.com/writing/my-ai-adoption-journey
 imported_from: "obsidian-vault/Resources/AI/Harness.md"
-draft: true
 ---
 
 [My AI Adoption Journey](https://mitchellh.com/writing/my-ai-adoption-journey)

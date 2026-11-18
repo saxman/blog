@@ -6,7 +6,6 @@ tags:
 type: repo
 source: https://github.com/musistudio/claude-code-router
 imported_from: "obsidian-vault/Resources/AI/Tools.md"
-draft: true
 ---
 
 [Claude Code Router](https://github.com/musistudio/claude-code-router)

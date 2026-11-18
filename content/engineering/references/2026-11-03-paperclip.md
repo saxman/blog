@@ -6,7 +6,6 @@ tags:
 type: paper
 source: https://paperclip.gxl.ai/
 imported_from: "obsidian-vault/Resources/AI/Tools.md"
-draft: true
 ---
 
 [Paperclip](https://paperclip.gxl.ai/)

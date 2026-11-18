@@ -7,7 +7,6 @@ type: link
 source: https://openai.com/index/harness-engineering/
 author: "OpenAI"
 imported_from: "obsidian-vault/Resources/AI/Harness.md"
-draft: true
 ---
 
 [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)

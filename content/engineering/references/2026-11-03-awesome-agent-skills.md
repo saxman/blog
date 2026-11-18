@@ -6,7 +6,6 @@ tags:
 type: repo
 source: https://github.com/VoltAgent/awesome-agent-skills
 imported_from: "obsidian-vault/Resources/AI/Agent Skills.md"
-draft: true
 ---
 
 [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills)

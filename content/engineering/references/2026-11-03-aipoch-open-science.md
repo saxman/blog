@@ -7,7 +7,6 @@ type: project
 source: https://github.com/aipoch/open-science
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [aipoch/open-science](https://github.com/aipoch/open-science)

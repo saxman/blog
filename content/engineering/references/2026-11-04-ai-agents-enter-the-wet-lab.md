@@ -7,7 +7,6 @@ type: link
 source: https://www.nature.com/articles/d41586-026-03270-1
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [AI agents enter the ‘wet lab’](https://www.nature.com/articles/d41586-026-03270-1)

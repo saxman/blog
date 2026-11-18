@@ -7,7 +7,6 @@ type: project
 source: https://github.com/allenai/asta-autodiscovery
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [allenai/asta-autodiscovery](https://github.com/allenai/asta-autodiscovery)

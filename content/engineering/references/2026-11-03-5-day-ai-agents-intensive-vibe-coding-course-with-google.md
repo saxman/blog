@@ -6,7 +6,6 @@ tags:
 type: course
 source: https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google
 imported_from: "obsidian-vault/Resources/AI/Training.md"
-draft: true
 ---
 
 [5-Day AI Agents: Intensive Vibe Coding Course With Google](https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google)

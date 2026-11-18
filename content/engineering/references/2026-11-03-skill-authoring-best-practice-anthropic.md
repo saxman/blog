@@ -6,7 +6,6 @@ tags:
 type: link
 source: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 imported_from: "obsidian-vault/Resources/AI/Agent Skills.md"
-draft: true
 ---
 
 [Skill Authoring Best Practice (Anthropic)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)

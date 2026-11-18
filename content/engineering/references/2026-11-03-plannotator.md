@@ -6,7 +6,6 @@ tags:
 type: link
 source: https://plannotator.ai/
 imported_from: "obsidian-vault/Resources/AI/Tools.md"
-draft: true
 ---
 
 [Plannotator](https://plannotator.ai/)

@@ -7,7 +7,6 @@ tags:
 type: paper
 source: https://github.com/starsimhub/scipy2026_paper/tree/main/paper
 imported_from: "obsidian-vault/Resources/AI/Articles.md"
-draft: true
 ---
 
 [Vibes, meet rigor: Evaluating and improving AI performance on complex scientific code](https://github.com/starsimhub/scipy2026_paper/tree/main/paper)

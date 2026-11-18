@@ -6,7 +6,6 @@ tags:
 type: course
 source: https://huggingface.co/learn/llm-course/chapter1/1
 imported_from: "obsidian-vault/Resources/AI/Training.md"
-draft: true
 ---
 
 [The Hugging Face Course](https://huggingface.co/learn/llm-course/chapter1/1)

@@ -7,7 +7,6 @@ type: project
 source: https://allenai.org/asta
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [Asta: Advancing Scientific AI with Agents & Benchmarks](https://allenai.org/asta)

@@ -7,7 +7,6 @@ type: paper
 source: https://arxiv.org/html/2610.35959v1
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Engineering.md"
-draft: true
 ---
 
 [AgentBaton: Efficient Model Collaboration in Agentic Tasks](https://arxiv.org/html/2610.35959v1)

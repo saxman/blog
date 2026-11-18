@@ -7,7 +7,6 @@ type: paper
 source: https://arxiv.org/html/2610.38095v1
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Models.md"
-draft: true
 ---
 
 [Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI](https://arxiv.org/html/2610.38095v1)

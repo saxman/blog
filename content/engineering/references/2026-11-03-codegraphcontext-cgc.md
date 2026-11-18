@@ -6,7 +6,6 @@ tags:
 type: repo
 source: https://github.com/CodeGraphContext/CodeGraphContext
 imported_from: "obsidian-vault/Resources/AI/Tools.md"
-draft: true
 ---
 
 [CodeGraphContext (CGC)](https://github.com/CodeGraphContext/CodeGraphContext)

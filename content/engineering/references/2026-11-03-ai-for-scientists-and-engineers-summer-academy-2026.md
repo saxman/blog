@@ -6,7 +6,6 @@ tags:
 type: course
 source: https://midas.umich.edu/events/aise-sa-2026/
 imported_from: "obsidian-vault/Resources/AI/Training.md"
-draft: true
 ---
 
 [AI for Scientists and Engineers Summer Academy 2026](https://midas.umich.edu/events/aise-sa-2026/)

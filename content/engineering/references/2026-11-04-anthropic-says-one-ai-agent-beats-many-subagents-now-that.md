@@ -7,7 +7,6 @@ type: link
 source: https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Engineering.md"
-draft: true
 ---
 
 [Anthropic says one AI agent beats many subagents now that models can handle complexity alone](https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/)

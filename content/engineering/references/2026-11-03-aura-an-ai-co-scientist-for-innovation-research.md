@@ -7,7 +7,6 @@ type: project
 source: https://medium.com/99p-labs/aura-an-ai-co-scientist-for-innovation-research-ea2f095b1d15
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [AURA: An AI Co-Scientist for Innovation Research](https://medium.com/99p-labs/aura-an-ai-co-scientist-for-innovation-research-ea2f095b1d15)

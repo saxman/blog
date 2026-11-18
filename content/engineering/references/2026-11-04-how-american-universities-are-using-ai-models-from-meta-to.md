@@ -7,7 +7,6 @@ type: program
 source: https://research.meta.ai/blog/supporting-medical-scientific-research
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/For Science.md"
-draft: true
 ---
 
 [How American Universities Are Using AI Models From Meta to Accelerate Medical and Scientific Breakthroughs](https://research.meta.ai/blog/supporting-medical-scientific-research)

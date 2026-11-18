@@ -7,7 +7,6 @@ type: paper
 source: https://arxiv.org/html/2611.05306v1
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Engineering.md"
-draft: true
 ---
 
 [You don’t need long context](https://arxiv.org/html/2611.05306v1)

@@ -7,7 +7,6 @@ type: link
 source: https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Engineering.md"
-draft: true
 ---
 
 [Building agents: When to fold subagents into your main agent loop](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)

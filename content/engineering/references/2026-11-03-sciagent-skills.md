@@ -6,7 +6,6 @@ tags:
 type: repo
 source: https://github.com/jaechang-hits/SciAgent-Skills
 imported_from: "obsidian-vault/Resources/AI/Agent Skills.md"
-draft: true
 ---
 
 [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills)

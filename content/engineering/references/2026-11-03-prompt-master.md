@@ -6,7 +6,6 @@ tags:
 type: repo
 source: https://github.com/nidhinjs/prompt-master
 imported_from: "obsidian-vault/Resources/AI/Agent Skills.md"
-draft: true
 ---
 
 [Prompt Master](https://github.com/nidhinjs/prompt-master)

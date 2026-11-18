@@ -6,7 +6,6 @@ tags:
 type: link
 source: https://msf.github.io/blogpost/local-llm-coding-harder-test.html
 imported_from: "obsidian-vault/Resources/AI/Language Models.md"
-draft: true
 ---
 
 [Gemma 4 vs Qwen3.5: benchmarking quantized local LLMs on Go coding](https://msf.github.io/blogpost/local-llm-coding-harder-test.html)

@@ -7,7 +7,6 @@ type: project
 source: https://ecc.tools/
 summary_by: ai
 imported_from: "obsidian-vault/Resources/AI/Harness.md"
-draft: true
 ---
 
 [The #1 agentic engineering toolkit](https://ecc.tools/)
