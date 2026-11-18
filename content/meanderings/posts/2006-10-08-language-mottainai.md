@@ -9,4 +9,4 @@ tags:
 imported_from: blogger
 ---
 
-[MOTTAINAI](http://en.wikipedia.org/wiki/MOTTAINAI)
+[Mottainai](https://en.wikipedia.org/wiki/Mottainai): "Mottainai is a Japanese phrase conveying a sense of regret over waste, or to state that one does not deserve something because it is too good. The term can be translated to English as "What a waste!" or the old saying, "Waste not, want not.""

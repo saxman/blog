@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Yamato nadeshiko](http://en.wikipedia.org/wiki/Yamato_nadeshiko)
+[Yamato nadeshiko](https://en.wikipedia.org/wiki/Yamato_nadeshiko): "Yamato nadeshiko is a Japanese term meaning the "personification of an idealized Japanese woman." The term is the archetype of conservative and traditional femininity."

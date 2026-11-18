@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[hubris](http://dictionary.reference.com/search?q=hubris)
+[hubris](https://en.wiktionary.org/wiki/hubris) (noun): "Excessive arrogance or pride, or presumption; originally toward the gods; a feeling of overwhelming and all-encompassing pride."

@@ -9,4 +9,4 @@ tags:
 imported_from: blogger
 ---
 
-[Transhumanism](http://en.wikipedia.org/wiki/Transhumanism)
+[Transhumanism](https://en.wikipedia.org/wiki/Transhumanism): "Transhumanism is an intellectual and cultural movement that advocates using existing, emerging, and speculative technologies to enhance humans beyond current natural limitations, particularly by extending longevity and improving cognition, health, and well-being."

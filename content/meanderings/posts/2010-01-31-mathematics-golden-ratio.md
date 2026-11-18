@@ -6,4 +6,4 @@ tags:
 imported_from: blogger
 ---
 
-[Golden ratio](http://en.wikipedia.org/wiki/Golden_ratio)
+[Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio): "In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities."

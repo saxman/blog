@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Defensive weapons of the Japanese samurai](http://www.e-budokai.com/articles/weapons.htm)
+[Defensive weapons of the Japanese samurai](http://www.e-budokai.com/articles/weapons.htm): an article from e-budokai.com on the weapons and equipment the samurai used for defense.

@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Ad hoc](http://en.wikipedia.org/wiki/Ad_hoc)
+[ad hoc](https://en.wiktionary.org/wiki/ad%20hoc) (adjective): "For a particular purpose."

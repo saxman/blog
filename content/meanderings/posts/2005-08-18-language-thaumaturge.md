@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Thaumaturge](http://www.answers.com/thaumaturge) (alt. thaumaturgist)
+[thaumaturge](https://en.wiktionary.org/wiki/thaumaturge) (noun): "A performer of thaumaturgy; a performer of miracles; a magician." (alt. thaumaturgist)

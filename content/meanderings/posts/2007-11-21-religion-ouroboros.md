@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Ouroboros](http://en.wikipedia.org/wiki/Ouroboros)
+[Ouroboros](https://en.wikipedia.org/wiki/Ouroboros): "The ouroboros or uroboros is an ancient symbol often used to represent the eternal cycle of life which depicts a snake or dragon eating its own tail. The ouroboros entered Western tradition via ancient Egyptian iconography and the Greek magical tradition."

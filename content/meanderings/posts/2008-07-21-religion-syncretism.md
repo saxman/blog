@@ -9,4 +9,4 @@ tags:
 imported_from: blogger
 ---
 
-[Syncretism](http://en.wikipedia.org/wiki/Syncretism)
+[Syncretism](https://en.wikipedia.org/wiki/Syncretism): "Syncretism is the combining or merging of various distinct beliefs or schools of thought, particularly religious ones. For instance, features and components of one religion are incorporated and absorbed into another."

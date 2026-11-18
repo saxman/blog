@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Pax Britannica](http://en.wikipedia.org/wiki/Pax_Britannica)
+[Pax Britannica](https://en.wikipedia.org/wiki/Pax_Britannica): "Pax Britannica refers to the relative peace between the great powers in the time period roughly bounded by the Napoleonic Wars and the First World War. During this time the British Empire became the world hegemon, developed an additional informal empire, and adopted the role of a "global policeman"."

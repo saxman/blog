@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Endosymbiotic theory](http://en.wikipedia.org/wiki/Endosymbiotic_theory)
+[Symbiogenesis](https://en.wikipedia.org/wiki/Symbiogenesis): "Symbiogenesis, also known as the endosymbiotic theory or serial endosymbiotic theory, is the leading scientific theory for the evolutionary origin of eukaryotes from prokaryotic ancestors."

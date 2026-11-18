@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Split infinitive](http://en.wikipedia.org/wiki/Split_infinitive)
+[Split infinitive](https://en.wikipedia.org/wiki/Split_infinitive): "A split infinitive is a grammatical construction specific to English in which an adverb appears within an infinitive phrase, e.g. "... to boldly go where no man has gone before." Since the 19th century linguistic prescriptivists have sought to disallow split infinitives categorically, but recent editions of English usage guides have largely dropped their objection."

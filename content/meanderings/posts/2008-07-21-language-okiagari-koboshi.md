@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Okiagari-koboshi](http://en.wikipedia.org/wiki/Okiagari-koboshi)
+[Okiagari-koboshi](https://en.wikipedia.org/wiki/Okiagari-koboshi): "Okiagari-koboshi or Okiagari-kobōshi is a Japanese traditional doll. The toy is made from papier-mâché and is a roly-poly toy, designed so that its weight causes it to return to an upright position if it is knocked over."

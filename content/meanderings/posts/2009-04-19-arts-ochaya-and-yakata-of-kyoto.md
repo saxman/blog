@@ -8,4 +8,6 @@ tags:
 imported_from: blogger
 ---
 
-[Ochaya and Yakata of Kyoto](http://www.flickr.com/groups/872861@N25/)
+[Ochaya and Yakata of Kyoto](http://www.flickr.com/groups/872861@N25/): a Flickr group of photos of Kyoto's teahouses and geisha houses.
+
+[Ochaya](https://en.wikipedia.org/wiki/Ochaya): "In Japan, an ochaya is an establishment where patrons are entertained by geisha."

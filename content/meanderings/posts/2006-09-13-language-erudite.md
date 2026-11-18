@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[erudite](http://dictionary.reference.com/wordoftheday/archive/2006/09/13.html)
+[erudite](https://en.wiktionary.org/wiki/erudite) (adjective): "Learned, scholarly, with emphasis on knowledge gained from books."

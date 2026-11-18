@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Vivarium](http://dictionary.reference.com/search?q=vivarium)
+[vivarium](https://en.wiktionary.org/wiki/vivarium) (noun): "A place artificially arranged for keeping or raising living animals."

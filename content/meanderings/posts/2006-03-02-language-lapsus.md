@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Lapsus linguae-calami](http://fr.wikipedia.org/wiki/Lapsus)
+[Lapsus](https://en.wikipedia.org/wiki/Lapsus): "In philology, a lapsus is an involuntary mistake made while writing or speaking."

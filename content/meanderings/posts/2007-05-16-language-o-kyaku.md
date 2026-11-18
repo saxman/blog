@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[O-kyaku](http://search.japantimes.co.jp/cgi-bin/ek20060919wh.html)
+[O-kyaku](http://search.japantimes.co.jp/cgi-bin/ek20060919wh.html): お客 (o-kyaku), often お客様 (o-kyaku-sama): a guest or customer, with the honorific o- (and -sama) marking respect.

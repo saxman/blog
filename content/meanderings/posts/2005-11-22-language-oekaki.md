@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Oekaki](http://en.wikipedia.org/wiki/Oekaki)
+[oekaki](https://en.wiktionary.org/wiki/oekaki) (noun): "A drawing-based message board system, sometimes allowing users to replay a stroke-by-stroke animation of the picture being drawn."

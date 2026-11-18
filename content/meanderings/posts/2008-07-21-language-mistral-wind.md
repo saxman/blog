@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Mistral (wind)](http://en.wikipedia.org/wiki/Mistral_%28wind%29)
+[Mistral (wind)](https://en.wikipedia.org/wiki/Mistral_(wind)): "The mistral is a strong, cold, northwesterly wind that blows from southern France into the Gulf of Lion in the northern Mediterranean. It produces sustained winds averaging 50 km/h (30 mph), sometimes reaching 100 km/h (60 mph)."

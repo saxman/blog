@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Okinawa Soba's Photostream](http://www.flickr.com/photos/24443965@N08/)
+[Okinawa Soba's Photostream](http://www.flickr.com/photos/24443965@N08/): a Flickr photostream of photos of Japan and Asia.

@@ -8,4 +8,4 @@ tags:
 imported_from: blogger
 ---
 
-[Steampunk](http://en.wikipedia.org/wiki/Steampunk)
+[Steampunk](https://en.wikipedia.org/wiki/Steampunk): "Steampunk is a subgenre of science fiction that incorporates retro-futuristic technology and aesthetics prominently inspired by 19th-century industrial steam-powered machinery and design."

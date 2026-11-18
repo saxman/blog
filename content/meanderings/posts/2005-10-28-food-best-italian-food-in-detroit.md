@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Andiamo](http://andiamoitalia.com/)
+[Andiamo](http://andiamoitalia.com/): a group of Italian restaurants in the Detroit area.

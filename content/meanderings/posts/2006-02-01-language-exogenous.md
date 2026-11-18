@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[exogenous](http://www.answers.com/exogenous)
+[exogenous](https://en.wiktionary.org/wiki/exogenous) (adjective): "Having an external cause. Produced or originating outside of the referent organism."

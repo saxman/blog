@@ -7,4 +7,4 @@ tags:
 imported_from: blogger
 ---
 
-[Jacques Derrida](http://en.wikipedia.org/wiki/Derrida)
+[Jacques Derrida](https://en.wikipedia.org/wiki/Jacques_Derrida): "Jacques Derrida was a French philosopher. He developed the philosophy of deconstruction, which he applied in some of his texts, and which he developed through close readings of the linguistics of Ferdinand de Saussure and Husserlian and Heideggerian phenomenology."
