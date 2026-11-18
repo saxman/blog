@@ -11,10 +11,10 @@ configuration:
   locale: en-US
   baseUrl: saxman.info/blog
   ignorePatterns:
-    - private
-    - templates
-    - drafts
-    - .obsidian
+    - "**/private/**"
+    - "**/templates/**"
+    - "**/drafts/**"
+    - "**/.obsidian/**"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -204,7 +204,7 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: Recent Posts
+      title: Recently Added
       limit: 10
       showTags: true
       hideTagPages: true

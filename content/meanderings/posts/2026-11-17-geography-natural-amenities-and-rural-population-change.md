@@ -1,5 +1,5 @@
 ---
-title: Natural Amenities and Rural Population Change
+title: "Geography: Natural Amenities and Rural Population Change"
 date: 2026-11-17T17:09:01-08:00
 tags:
   - geography

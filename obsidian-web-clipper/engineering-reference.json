@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Engineering reference",
+  "behavior": "create",
+  "vault": "engineering",
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"|kebab|safe_name}}",
+  "path": "references",
+  "noteContentFormat": "[{{title}}]({{url}})\n\n{{\"a description of what this is and why it matters, in 2 to 3 sentences, in a neutral tone, in English\"}}\n\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"}}",
+      "type": "text"
+    },
+    {
+      "name": "date",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "published",
+      "value": "{{published|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "tags",
+      "value": "{{\"Choose 1 to 4 tags for this page from this list: engineering/ai/agent-skills, engineering/ai/for-science, engineering/ai/harnesses, engineering/ai/models, engineering/ai/registries, engineering/ai/research, engineering/ai/tools, engineering/ai/training, public-health/disease-modeling. At least one tag must start with engineering/. Use the most specific tag that fits, and do not add a parent tag alongside its child. Only if no listed tag fits the main subject, invent one new lowercase tag under engineering/ in the same style. Reply with only the tags separated by commas, with no # and no other text.\"}}",
+      "type": "multitext"
+    },
+    {
+      "name": "type",
+      "value": "{{\"which one of these best describes the page: paper, article, repo, tool, project, model, dataset, program, course, link. Reply with only that word\"}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "text"
+    },
+    {
+      "name": "summary_by",
+      "value": "ai",
+      "type": "text"
+    },
+    {
+      "name": "draft",
+      "value": "true",
+      "type": "checkbox"
+    }
+  ],
+  "triggers": [
+    "https://arxiv.org/",
+    "https://github.com/",
+    "https://huggingface.co/"
+  ],
+  "context": "{{content|slice:0,30000}}"
+}

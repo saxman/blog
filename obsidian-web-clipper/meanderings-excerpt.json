@@ -1,7 +1,8 @@
 {
   "schemaVersion": "0.1.0",
-  "name": "Blog clipping (excerpt)",
+  "name": "Meanderings (excerpt)",
   "behavior": "create",
+  "vault": "meanderings",
   "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"a title of the form 'Topic: Subject'. Topic is one of: Arts, Culture, Economics, Education, Environment, Folklore, Food, Geography, History, Humor, Language, Linguistics, Martial Arts, Mathematics, Philosophy, Religion, Science, Technology, Travel, and should match the top level of the most relevant tag. Subject is the page subject in its usual capitalization, without the site name\"|kebab|safe_name}}",
   "path": "posts",
   "noteContentFormat": "[{{title}}]({{url}})\n\n{{\"the one passage from the main article that best defines or explains its subject, copied verbatim and not paraphrased, at most 3 paragraphs\"|blockquote}}\n\n",

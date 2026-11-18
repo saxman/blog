@@ -1,5 +1,5 @@
 ---
-title: Tsundere
+title: "Language: Tsundere"
 date: 2026-11-17T17:09:52-08:00
 tags:
   - culture/japan

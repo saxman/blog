@@ -12,7 +12,8 @@ replit.nix
 quartz/cli/tui/dist/
 .turbo/
 # Obsidian: commit shared vault settings, not per-machine state
-content/.obsidian/workspace*.json
-content/.obsidian/cache
-content/.obsidian/plugins/
-content/.trash/
+content/.obsidian/
+content/*/.obsidian/workspace*.json
+content/*/.obsidian/cache
+content/*/.obsidian/plugins/
+content/*/.trash/
