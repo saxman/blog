@@ -24,6 +24,10 @@ function Save-Template([string] $file, $template) {
     [IO.File]::WriteAllText((Join-Path $outDir $file), ($json -replace "`r`n", "`n") + "`n", $utf8)
 }
 $link = '[{{title}}]({{url}})'
+# Filename slug filters: kebab-case and lowercase, turn leftover punctuation into hyphens, then collapse and
+# trim hyphens. Letters with accents are kept (Web Clipper can't transliterate them).
+# (No "|" or double quotes inside the regexes: Web Clipper would misread them.)
+$slugFilters = '|kebab|lower|replace:"/[()\[\]{},.!?:;&]+/g":"-"|replace:"/-+/g":"-"|replace:"/^-/":""|replace:"/-$/":""'
 
 # --- Meanderings (the blog): "Topic: Subject" posts in meanderings/posts ---
 $tags = Get-Tags (Join-Path $content 'meanderings/posts')
@@ -49,7 +53,7 @@ function New-PostTemplate([string] $name, [string] $body) {
         behavior          = 'create'
         vault             = 'meanderings'
         # Same prompt as the title property, so the filename matches the title (e.g. 2026-11-17-language-petrichor).
-        noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$titlePrompt`"|kebab|safe_name}}"
+        noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$titlePrompt`"$slugFilters}}"
         # New clips go straight to posts/ as drafts; remove draft: true to publish.
         path              = 'posts'
         noteContentFormat = $body
@@ -97,7 +101,7 @@ Only if no listed tag fits the main subject, invent one new lowercase tag under 
         name              = $cfg.label
         behavior          = 'create'
         vault             = $v
-        noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$refTitlePrompt`"|kebab|safe_name}}"
+        noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$refTitlePrompt`"$slugFilters}}"
         path              = 'references'
         noteContentFormat = "$link`n`n" + '{{"a description of what this is and why it matters, in 2 to 3 sentences, in a neutral tone, in English"}}' + "`n`n"
         properties        = @(
