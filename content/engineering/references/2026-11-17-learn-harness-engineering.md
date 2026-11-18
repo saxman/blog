@@ -1,14 +1,14 @@
 ---
-title: "Learn Harness Engineering"
+title: Learn Harness Engineering
 date: 2026-11-17
 published:
 tags:
-  - "engineering/ai/harnesses"
-type: "course"
-source: "https://github.com/walkinglabs/learn-harness-engineering"
+  - engineering/ai/harnesses
+type: course
+source: https://github.com/walkinglabs/learn-harness-engineering
 author:
-summary_by: "ai"
-draft: true
+summary_by: ai
+draft: false
 ---
 [walkinglabs/learn-harness-engineering: Harness engineering beginner tutorial, from 0 to 1](https://github.com/walkinglabs/learn-harness-engineering)
 
