@@ -14,6 +14,7 @@ quartz/cli/tui/dist/
 # Obsidian: commit shared vault settings, not per-machine state
 content/.obsidian/
 content/*/.obsidian/workspace*.json
+content/*/.obsidian/graph.json
 content/*/.obsidian/cache
 content/*/.obsidian/plugins/
 content/*/.trash/
