@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "name": "Engineering reference",
+  "name": "Engineering",
   "behavior": "create",
   "vault": "engineering",
   "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"|kebab|lower|replace:\"/[()\\[\\]{},.!?:;&]+/g\":\"-\"|replace:\"/-+/g\":\"-\"|replace:\"/^-/\":\"\"|replace:\"/-$/\":\"\"|safe_name}}",

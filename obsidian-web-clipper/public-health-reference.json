@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "name": "Public health reference",
+  "name": "Public health",
   "behavior": "create",
   "vault": "public-health",
   "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"|kebab|lower|replace:\"/[()\\[\\]{},.!?:;&]+/g\":\"-\"|replace:\"/-+/g\":\"-\"|replace:\"/^-/\":\"\"|replace:\"/-$/\":\"\"|safe_name}}",

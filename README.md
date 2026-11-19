@@ -53,7 +53,7 @@ Before inventing a new tag, check Obsidian's Tags pane and reuse an existing one
 
 1. **Clip:** use one of the Web Clipper templates in `obsidian-web-clipper/`. Each targets one vault, and saves with `draft: true`.
    - "Meanderings (excerpt)" and "Meanderings (summary)" save to `meanderings/posts/`. They use Web Clipper's Interpreter (an LLM) to write the "Topic: Subject" title, filename and tags, and to quote or summarize the page.
-   - "Engineering reference" and "Public health reference" save to `posts/` in their vault, with an AI-written description, type, and tags. "Engineering reference" is picked automatically on arxiv.org, github.com, and huggingface.co.
+   - "Engineering" and "Public health" save to `posts/` in their vault, with an AI-written description, type, and tags. "Engineering" is picked automatically on arxiv.org, github.com, and huggingface.co.
    - Tags are chosen from the tags already used in each vault. After adding new tags, run `pwsh scripts/update-clipper-templates.ps1` and re-import the templates.
 2. **Edit:** add your own commentary and tags.
 3. **Publish:** set `draft: false` (or delete the line), then commit and push. GitHub Actions builds and deploys.

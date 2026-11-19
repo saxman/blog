@@ -80,9 +80,9 @@ Save-Template 'meanderings-summary.json' (New-PostTemplate 'Meanderings (summary
 
 # --- Reference vaults: one note per bookmark in <vault>/posts ---
 $refVaults = [ordered]@{
-    'engineering'   = @{ label = 'Engineering reference'; prefix = 'engineering/';
+    'engineering'   = @{ label = 'Engineering'; prefix = 'engineering/';
                          triggers = @('https://arxiv.org/', 'https://github.com/', 'https://huggingface.co/') }
-    'public-health' = @{ label = 'Public health reference'; prefix = 'public-health/'; triggers = @() }
+    'public-health' = @{ label = 'Public health'; prefix = 'public-health/'; triggers = @() }
 }
 # Tags from every reference vault, so a reference can be cross-listed (e.g. an AI paper about disease modeling).
 $allRefTags = $refVaults.Keys | ForEach-Object { Get-Tags (Join-Path $content "$_/posts") } | Sort-Object -Unique
