@@ -1,5 +1,5 @@
 ---
-title: Metal-Bodied Mechanical Pencils Comparison
+title: "Technology: Metal-Bodied Mechanical Pencils Comparison"
 date: 2026-11-19T15:53:46
 tags:
   - technology
