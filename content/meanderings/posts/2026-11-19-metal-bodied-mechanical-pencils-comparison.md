@@ -3,7 +3,7 @@ title: 2026-11-19-metal-bodied-mechanical-pencils-comparison
 date: 2026-11-19T15:53:46
 tags:
   - technology
-draft: true
+draft: false
 ---
 # Metal-Bodied Mechanical Pencils Comparison
 Comprehensive specifications and feature breakdown of 38 metal-bodied and metal-hybrid mechanical pencils
