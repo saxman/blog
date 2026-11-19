@@ -78,14 +78,14 @@ Save-Template 'meanderings-summary.json' (New-PostTemplate 'Meanderings (summary
     '{{"a summary of the main article in 2 to 4 sentences, in a neutral encyclopedic tone, in English"}}' +
     "`n`n"))
 
-# --- Reference vaults: one note per bookmark in <vault>/references ---
+# --- Reference vaults: one note per bookmark in <vault>/posts ---
 $refVaults = [ordered]@{
     'engineering'   = @{ label = 'Engineering reference'; prefix = 'engineering/';
                          triggers = @('https://arxiv.org/', 'https://github.com/', 'https://huggingface.co/') }
     'public-health' = @{ label = 'Public health reference'; prefix = 'public-health/'; triggers = @() }
 }
 # Tags from every reference vault, so a reference can be cross-listed (e.g. an AI paper about disease modeling).
-$allRefTags = $refVaults.Keys | ForEach-Object { Get-Tags (Join-Path $content "$_/references") } | Sort-Object -Unique
+$allRefTags = $refVaults.Keys | ForEach-Object { Get-Tags (Join-Path $content "$_/posts") } | Sort-Object -Unique
 $kinds = 'paper, article, repo, tool, project, model, dataset, program, course, link'
 $refTitlePrompt = 'the name of the paper, tool, project, or article, as it is usually written, without the site name'
 
@@ -102,7 +102,7 @@ Only if no listed tag fits the main subject, invent one new lowercase tag under 
         behavior          = 'create'
         vault             = $v
         noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$refTitlePrompt`"$slugFilters}}"
-        path              = 'references'
+        path              = 'posts'
         noteContentFormat = "$link`n`n" + '{{"a description of what this is and why it matters, in 2 to 3 sentences, in a neutral tone, in English"}}' + "`n`n"
         properties        = @(
             [ordered]@{ name = 'title';      value = "{{`"$refTitlePrompt`"}}"; type = 'text' }

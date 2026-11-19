@@ -16,8 +16,7 @@ Source for <https://saxman.info/blog>, built with [Quartz](https://quartz.jzhao.
 
 | Path | Purpose |
 | --- | --- |
-| `<vault>/posts/` | Blog posts (`YYYY-MM-DD-topic-subject.md`), meanderings only |
-| `<vault>/references/` | One note per bookmark (`YYYY-MM-DD-name.md`), engineering and public-health |
+| `<vault>/posts/` | Published notes. Meanderings: blog posts (`YYYY-MM-DD-topic-subject.md`). Engineering and public-health: one reference note per bookmark (`YYYY-MM-DD-name.md`) |
 | `<vault>/index.md` | The section's home page |
 | `<vault>/drafts/` | New notes from Obsidian. Never published (ignored by Quartz) |
 | `<vault>/attachments/` | Images and other files that notes embed |
@@ -54,7 +53,7 @@ Before inventing a new tag, check Obsidian's Tags pane and reuse an existing one
 
 1. **Clip:** use one of the Web Clipper templates in `obsidian-web-clipper/`. Each targets one vault, and saves with `draft: true`.
    - "Meanderings (excerpt)" and "Meanderings (summary)" save to `meanderings/posts/`. They use Web Clipper's Interpreter (an LLM) to write the "Topic: Subject" title, filename and tags, and to quote or summarize the page.
-   - "Engineering reference" and "Public health reference" save to `references/` in their vault, with an AI-written description, type, and tags. "Engineering reference" is picked automatically on arxiv.org, github.com, and huggingface.co.
+   - "Engineering reference" and "Public health reference" save to `posts/` in their vault, with an AI-written description, type, and tags. "Engineering reference" is picked automatically on arxiv.org, github.com, and huggingface.co.
    - Tags are chosen from the tags already used in each vault. After adding new tags, run `pwsh scripts/update-clipper-templates.ps1` and re-import the templates.
 2. **Edit:** add your own commentary and tags.
 3. **Publish:** set `draft: false` (or delete the line), then commit and push. GitHub Actions builds and deploys.
