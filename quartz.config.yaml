@@ -161,8 +161,9 @@ plugins:
     layout:
       position: beforeBody
       priority: 30
+  # Replaced by the section-aware SectionTitle component, added to the left sidebar in quartz.ts.
   - source: "@quartz-community/page-title"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 10
