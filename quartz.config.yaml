@@ -2,7 +2,7 @@
 # Site config for saxman.info/blog. Derived from quartz.config.default.yaml (keep that file untouched for upstream updates).
 # cname is disabled on purpose: this is a project site under the saxman.github.io custom domain.
 configuration:
-  pageTitle: Discoveries, Factoids, and Meandering Thoughts
+  pageTitle: blog
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
