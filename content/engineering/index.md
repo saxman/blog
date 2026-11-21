@@ -4,50 +4,39 @@ title: Engineering
 
 References I'm tracking on engineering, mostly AI: papers, tools, harnesses, models, and courses, weighted toward AI for scientific research.
 
-## Agent skills
+## Browse by topic
 
-Individual agent skills and skill libraries worth tracking on their own merits, weighted toward disease modeling and scientific research: science libraries like SciAgent-Skills, general-purpose skills, and the authoring specs and best-practice guides that govern how skills should be written. Bulk directories and marketplaces are under [[tags/engineering/ai/registries|registries]] instead.
+- [[tags/engineering/ai/agent-skills|Agent skills]]: individual skills and skill libraries, plus the specs for writing them
+- [[tags/engineering/ai/registries|Registries]]: directories and marketplaces of skills, MCP servers, and tools
+- [[tags/engineering/ai/harnesses|Harnesses]]: agent harnesses and harness engineering
+- [[tags/engineering/ai/for-science|AI for science]]: research workbenches and the AI co-scientist framing
+- [[tags/engineering/ai/research|Research]]: papers and long-form writing on AI, including evaluations
+- [[tags/engineering/ai/models|Models]]: local and on-device models and the runtimes that serve them
+- [[tags/engineering/ai/protocols|Protocols]]: protocols for agent communication and context
+- [[tags/engineering/ai/tools|Tools]]: AI tools for research and software work
+- [[tags/engineering/ai/training|Training]]: courses on AI for researchers and builders
 
-→ [[tags/engineering/ai/agent-skills|All agent skills]]
+See [[tags/engineering|all engineering tags]].
 
-## Registries
+## Recent posts
 
-Aggregators and community registries where agent building blocks are published in bulk: skill collections, MCP servers, tool catalogs, model-provider integrations. These are the directories and marketplaces worth checking periodically; individual skills worth noting on their own merits go under [[tags/engineering/ai/agent-skills|agent skills]].
+```base
+filters:
+  and:
+    - file.inFolder("engineering/posts")
+formulas:
+  post: file.asLink(title)
+  added: date.format("MMM D, YYYY")
+views:
+  - type: list
+    name: Recent posts
+    order:
+      - formula.post
+      - formula.added
+    sort:
+      - property: date
+        direction: DESC
+    limit: 5
+```
 
-→ [[tags/engineering/ai/registries|All registries]]
-
-## Harnesses
-
-Agent harnesses and the practice of harness engineering: the layers that wrap coding agents with context, policies, and tooling.
-
-→ [[tags/engineering/ai/harnesses|All harnesses]]
-
-## AI for science
-
-Harnesses purpose-built for scientific work, the science-specific counterpart to [[tags/engineering/ai/harnesses|harnesses]]. The interest is in workbenches that wrap an agent in reproducibility guarantees: local-first and self-hosted execution, model-agnostic backends, connectors to scientific data sources, and reports and figures traceable to an inspectable activity log. Also collects writing on the AI co-scientist framing, where the agent is positioned as a research collaborator rather than a code generator.
-
-→ [[tags/engineering/ai/for-science|All AI for science]]
-
-## Research
-
-Papers and long-form writing on AI, kept for the substance of the argument rather than as tool pointers, including evaluation work: measuring whether AI can write correct code against a framework with sparse training data and a moving API, and whether agents can stand in as policymakers inside simulated epidemics. Dated where publication date matters for reading the claims in context.
-
-→ [[tags/engineering/ai/research|All research]]
-
-## Models
-
-Models themselves and the runtimes that serve them, with a bias toward local and on-device inference rather than hosted frontier APIs. Tracks both the tooling for running models on personal hardware and benchmarks comparing quantized local models on real coding tasks, the practical question being which models are good enough to run privately for research work.
-
-→ [[tags/engineering/ai/models|All models]]
-
-## Tools
-
-AI tools for research and software work: plan review, literature agents, routing, and code-graph context.
-
-→ [[tags/engineering/ai/tools|All tools]]
-
-## Training
-
-Courses and programs for bringing researchers up to speed on AI, spanning two audiences. One is scientists who need ML foundations and the judgment to assess data and validate model output, taught without assuming coding background. The other is people already building, who need agent architecture, tool and API integration, memory and context handling, evaluation, and the path from prototype to deployment.
-
-→ [[tags/engineering/ai/training|All training]]
+Browse the [[engineering/posts|full archive]].

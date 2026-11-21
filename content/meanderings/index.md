@@ -23,4 +23,27 @@ Words, ideas, and curiosities I've collected since 2004: philosophy, language, c
 - [[tags/series/quotes|Quotes]]
 - [[tags/series/reading-list|Reading lists]]
 
-See [[tags|all tags]] or browse the [[meanderings/posts|full archive]].
+See [[tags|all tags]].
+
+## Recent posts
+
+```base
+filters:
+  and:
+    - file.inFolder("meanderings/posts")
+formulas:
+  post: file.asLink(title)
+  added: date.format("MMM D, YYYY")
+views:
+  - type: list
+    name: Recent posts
+    order:
+      - formula.post
+      - formula.added
+    sort:
+      - property: date
+        direction: DESC
+    limit: 5
+```
+
+Browse the [[meanderings/posts|full archive]].
