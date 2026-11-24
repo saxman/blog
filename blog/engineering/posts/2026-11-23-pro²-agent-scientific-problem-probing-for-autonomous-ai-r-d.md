@@ -3,22 +3,22 @@ title: "Pro² Agent: Scientific Problem Probing for Autonomous AI R&D"
 date: 2026-11-23
 published:
 tags:
-  - "engineering/ai/research"
-  - "engineering/ai/harnesses"
-type: "paper"
-source: "https://arxiv.org/abs/2611.25357"
+  - engineering/ai/research
+  - engineering/ai/harnesses
+type: paper
+source: https://arxiv.org/abs/2611.25357
 author:
-  - "Yixiong Chen"
-  - "Liqian Peng"
-  - "Tian Tan"
-  - "Ziqian Lin"
-  - "Blake Jianhang Chen"
-  - "Chao Zhao"
-  - "Yaojie Liu"
-  - "Alec Go"
-  - "Alan Yuille"
-summary_by: "ai"
-draft: true
+  - Yixiong Chen
+  - Liqian Peng
+  - Tian Tan
+  - Ziqian Lin
+  - Blake Jianhang Chen
+  - Chao Zhao
+  - Yaojie Liu
+  - Alec Go
+  - Alan Yuille
+summary_by: ai
+draft: false
 ---
 [Pro$^2$ Agent: Scientific Problem Probing for Autonomous AI R&D](https://arxiv.org/abs/2611.25357)
 
