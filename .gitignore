@@ -12,6 +12,8 @@ replit.nix
 quartz/cli/tui/dist/
 .turbo/
 # Obsidian: commit shared vault settings, not per-machine state
+# The vault is blog/; ignore a vault accidentally opened at the repo root
+/.obsidian/
 blog/.obsidian/workspace*.json
 blog/.obsidian/graph.json
 blog/.obsidian/cache
