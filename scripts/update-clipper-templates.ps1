@@ -98,7 +98,7 @@ Choose 1 to 4 tags for this page from this list: $($allRefTags -join ', ').
 At least one tag must start with $($cfg.prefix). Use the most specific tag that fits, and do not add a parent tag alongside its child.
 Only if no listed tag fits the main subject, invent one new lowercase tag under $($cfg.prefix) in the same style. Reply with only the tags separated by commas, with no # and no other text.
 "@ -replace "`r?`n", ' ')
-    Save-Template "$v-reference.json" ([ordered]@{
+    Save-Template "$v.json" ([ordered]@{
         schemaVersion     = '0.1.0'
         name              = $cfg.label
         behavior          = 'create'
