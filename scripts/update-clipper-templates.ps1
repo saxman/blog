@@ -1,12 +1,14 @@
 # Regenerates the Obsidian Web Clipper templates in obsidian-web-clipper/ so each
-# Interpreter tag prompt lists every tag currently used in its vault.
+# Interpreter tag prompt lists every tag currently used in its section.
 # Re-run after adding new tags, then re-import the templates into Web Clipper.
 # Usage: pwsh scripts/update-clipper-templates.ps1
 $ErrorActionPreference = 'Stop'
 $root = Join-Path $PSScriptRoot '..'
-$content = Join-Path $root 'content'
+$blog = Join-Path $root 'blog'
 $outDir = Join-Path $root 'obsidian-web-clipper'
 $utf8 = [System.Text.UTF8Encoding]::new($false)
+# blog/ is the Obsidian vault, and Obsidian names a vault after its folder.
+$vault = 'blog'
 
 # Collect tags from the YAML list in each note's frontmatter under a folder.
 function Get-Tags([string] $dir) {
@@ -30,7 +32,7 @@ $link = '[{{title}}]({{url}})'
 $slugFilters = '|kebab|lower|replace:"/[()\[\]{},.!?:;&]+/g":"-"|replace:"/-+/g":"-"|replace:"/^-/":""|replace:"/-$/":""|safe_name'
 
 # --- Meanderings (the blog): "Topic: Subject" posts in meanderings/posts ---
-$tags = Get-Tags (Join-Path $content 'meanderings/posts')
+$tags = Get-Tags (Join-Path $blog 'meanderings/posts')
 $topics = $tags | Where-Object { $_ -notlike 'series/*' }
 $series = $tags | Where-Object { $_ -like 'series/*' }
 
@@ -51,11 +53,11 @@ function New-PostTemplate([string] $name, [string] $body) {
         schemaVersion     = '0.1.0'
         name              = $name
         behavior          = 'create'
-        vault             = 'meanderings'
+        vault             = $vault
         # Same prompt as the title property, so the filename matches the title (e.g. 2026-11-17-language-petrichor).
         noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$titlePrompt`"$slugFilters}}"
-        # New clips go straight to posts/ as drafts; remove draft: true to publish.
-        path              = 'posts'
+        # New clips go straight to meanderings/posts/ as drafts; remove draft: true to publish.
+        path              = 'meanderings/posts'
         noteContentFormat = $body
         properties        = @(
             [ordered]@{ name = 'title';  value = "{{`"$titlePrompt`"}}"; type = 'text' }
@@ -78,19 +80,19 @@ Save-Template 'meanderings-summary.json' (New-PostTemplate 'Meanderings (summary
     '{{"a summary of the main article in 2 to 4 sentences, in a neutral encyclopedic tone, in English"}}' +
     "`n`n"))
 
-# --- Reference vaults: one note per bookmark in <vault>/posts ---
-$refVaults = [ordered]@{
+# --- Reference sections: one note per bookmark in <section>/posts ---
+$refSections = [ordered]@{
     'engineering'   = @{ label = 'Engineering'; prefix = 'engineering/';
                          triggers = @('https://arxiv.org/', 'https://github.com/', 'https://huggingface.co/') }
     'public-health' = @{ label = 'Public health'; prefix = 'public-health/'; triggers = @() }
 }
-# Tags from every reference vault, so a reference can be cross-listed (e.g. an AI paper about disease modeling).
-$allRefTags = $refVaults.Keys | ForEach-Object { Get-Tags (Join-Path $content "$_/posts") } | Sort-Object -Unique
+# Tags from every reference section, so a reference can be cross-listed (e.g. an AI paper about disease modeling).
+$allRefTags = $refSections.Keys | ForEach-Object { Get-Tags (Join-Path $blog "$_/posts") } | Sort-Object -Unique
 $kinds = 'paper, article, repo, tool, project, model, dataset, program, course, link'
 $refTitlePrompt = 'the name of the paper, tool, project, or article, as it is usually written, without the site name'
 
-foreach ($v in $refVaults.Keys) {
-    $cfg = $refVaults[$v]
+foreach ($v in $refSections.Keys) {
+    $cfg = $refSections[$v]
     $refTagPrompt = (@"
 Choose 1 to 4 tags for this page from this list: $($allRefTags -join ', ').
 At least one tag must start with $($cfg.prefix). Use the most specific tag that fits, and do not add a parent tag alongside its child.
@@ -100,9 +102,9 @@ Only if no listed tag fits the main subject, invent one new lowercase tag under 
         schemaVersion     = '0.1.0'
         name              = $cfg.label
         behavior          = 'create'
-        vault             = $v
+        vault             = $vault
         noteNameFormat    = "{{date|date:`"YYYY-MM-DD`"}}-{{`"$refTitlePrompt`"$slugFilters}}"
-        path              = 'posts'
+        path              = "$v/posts"
         noteContentFormat = "$link`n`n" + '{{"a description of what this is and why it matters, in 2 to 3 sentences, in a neutral tone, in English"}}' + "`n`n"
         properties        = @(
             [ordered]@{ name = 'title';      value = "{{`"$refTitlePrompt`"}}"; type = 'text' }

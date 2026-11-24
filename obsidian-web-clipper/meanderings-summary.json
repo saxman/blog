@@ -2,9 +2,9 @@
   "schemaVersion": "0.1.0",
   "name": "Meanderings (summary)",
   "behavior": "create",
-  "vault": "meanderings",
+  "vault": "blog",
   "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"a title of the form 'Topic: Subject'. Topic is one of: Arts, Culture, Economics, Education, Environment, Folklore, Food, Geography, History, Humor, Language, Linguistics, Martial Arts, Mathematics, Philosophy, Religion, Science, Technology, Travel, and should match the top level of the most relevant tag. Subject is the page subject in its usual capitalization, without the site name\"|kebab|lower|replace:\"/[()\\[\\]{},.!?:;&]+/g\":\"-\"|replace:\"/-+/g\":\"-\"|replace:\"/^-/\":\"\"|replace:\"/-$/\":\"\"|safe_name}}",
-  "path": "posts",
+  "path": "meanderings/posts",
   "noteContentFormat": "[{{title}}]({{url}})\n\n{{\"a summary of the main article in 2 to 4 sentences, in a neutral encyclopedic tone, in English\"}}\n\n",
   "properties": [
     {

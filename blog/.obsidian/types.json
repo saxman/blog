@@ -1,0 +1,14 @@
+{
+  "types": {
+    "tags": "tags",
+    "aliases": "aliases",
+    "date": "datetime",
+    "published": "date",
+    "draft": "checkbox",
+    "source": "text",
+    "type": "text",
+    "author": "multitext",
+    "summary_by": "text",
+    "imported_from": "text"
+  }
+}

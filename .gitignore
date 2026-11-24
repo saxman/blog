@@ -12,9 +12,13 @@ replit.nix
 quartz/cli/tui/dist/
 .turbo/
 # Obsidian: commit shared vault settings, not per-machine state
-content/.obsidian/
-content/*/.obsidian/workspace*.json
-content/*/.obsidian/graph.json
-content/*/.obsidian/cache
-content/*/.obsidian/plugins/
-content/*/.trash/
+blog/.obsidian/workspace*.json
+blog/.obsidian/graph.json
+blog/.obsidian/cache
+blog/.obsidian/plugins/
+blog/.trash/
+# Copilot plugin: skill symlinks and caches it creates at the vault root
+blog/.agents/
+blog/.claude/
+blog/.copilot/
+blog/.opencode/

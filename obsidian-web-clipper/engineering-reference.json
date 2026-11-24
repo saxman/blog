@@ -2,9 +2,9 @@
   "schemaVersion": "0.1.0",
   "name": "Engineering",
   "behavior": "create",
-  "vault": "engineering",
+  "vault": "blog",
   "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{\"the name of the paper, tool, project, or article, as it is usually written, without the site name\"|kebab|lower|replace:\"/[()\\[\\]{},.!?:;&]+/g\":\"-\"|replace:\"/-+/g\":\"-\"|replace:\"/^-/\":\"\"|replace:\"/-$/\":\"\"|safe_name}}",
-  "path": "posts",
+  "path": "engineering/posts",
   "noteContentFormat": "[{{title}}]({{url}})\n\n{{\"a description of what this is and why it matters, in 2 to 3 sentences, in a neutral tone, in English\"}}\n\n",
   "properties": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "name": "tags",
-      "value": "{{\"Choose 1 to 4 tags for this page from this list: engineering/ai/agent-skills, engineering/ai/for-science, engineering/ai/harnesses, engineering/ai/models, engineering/ai/protocols, engineering/ai/registries, engineering/ai/research, engineering/ai/tools, engineering/ai/training, public-health/disease-modeling. At least one tag must start with engineering/. Use the most specific tag that fits, and do not add a parent tag alongside its child. Only if no listed tag fits the main subject, invent one new lowercase tag under engineering/ in the same style. Reply with only the tags separated by commas, with no # and no other text.\"}}",
+      "value": "{{\"Choose 1 to 4 tags for this page from this list: engineering/ai/agent-skills, engineering/ai/for-science, engineering/ai/harnesses, engineering/ai/models, engineering/ai/protocols, engineering/ai/registries, engineering/ai/research, engineering/ai/tools, engineering/ai/training, public-health/disease-modeling, public-health/population-mapping. At least one tag must start with engineering/. Use the most specific tag that fits, and do not add a parent tag alongside its child. Only if no listed tag fits the main subject, invent one new lowercase tag under engineering/ in the same style. Reply with only the tags separated by commas, with no # and no other text.\"}}",
       "type": "multitext"
     },
     {
