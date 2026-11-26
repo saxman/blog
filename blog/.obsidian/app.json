@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": [
     "templates/"
-  ]
+  ],
+  "readableLineLength": false
 }
